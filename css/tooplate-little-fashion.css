@@ -1184,3 +1184,35 @@ button:focus:not(:focus-visible) {
     color: white;
 }
 
+.banner {
+  background-color: #FF5722;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.banner .button {
+  background-color: white;
+  color: #FF5722;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.content {
+  padding-top: 60px; /* Espaço para o banner */
+}
+.navbar {
+  margin-top: 60px; /* Espaço para o banner */
+}
+
+.special-offer-date {
+  font-size: 1rem; /* Tamanho menor */
+  font-weight: normal; /* Remove negrito */
+  color: black; /* Define a cor para preto */
+}
